@@ -17,7 +17,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #111;
+    color: #000;
 }
 
 a:hover h2 {
@@ -46,7 +46,7 @@ h2 {
 
 .icon-list {
     font-size: 1.5em;
-    color: #FFF;
+    color: #fff;
 }
 
 .slide-menu {
