@@ -110,7 +110,7 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
-        
+
         var feed1;
         var feed2;
 
@@ -121,7 +121,7 @@ $(function() {
             });
         });
 
-        it('testmyfeed', function() {
+        it('should have different content when a new feed is loaded', function() {
             feed2 = ($('.feed').html());
             expect(feed1).not.toEqual(feed2);
         });
